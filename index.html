@@ -53,8 +53,8 @@ body {
         var player = new Vimeo.Player('random-video', {
             id: randomVideoId,
             width: 350,
-            autopause: true,
-            
+            autopause: false,
+            autoplay: true
         });
 
         player.on('loaded', function() {
